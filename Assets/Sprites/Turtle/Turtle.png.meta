@@ -1,0 +1,122 @@
+fileFormatVersion: 2
+guid: 2d089a09163d94a258a32294083d4fd0
+timeCreated: 1447243918
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Turtle_Body
+    21300002: Turtle_Head
+    21300004: Turtle_lLeg
+    21300006: Turtle_rLeg
+    21300008: Turtle_lArm
+    21300010: Turtle_rArm
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Turtle_Body
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 328
+        width: 307
+        height: 178
+      alignment: 9
+      pivot: {x: .672574937, y: .504879236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Turtle_Head
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 429
+        width: 120
+        height: 78
+      alignment: 9
+      pivot: {x: .101922609, y: .499999613}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Turtle_lLeg
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 246
+        width: 148
+        height: 75
+      alignment: 9
+      pivot: {x: .863844812, y: .2452299}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Turtle_rLeg
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 246
+        width: 148
+        height: 74
+      alignment: 9
+      pivot: {x: .869713247, y: .75821209}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Turtle_lArm
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 170
+        width: 81
+        height: 151
+      alignment: 9
+      pivot: {x: .42494145, y: .172142982}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Turtle_rArm
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 171
+        width: 81
+        height: 150
+      alignment: 9
+      pivot: {x: .45710963, y: .827856839}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
