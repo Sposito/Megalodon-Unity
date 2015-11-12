@@ -6,25 +6,26 @@ public class PlayerController : MonoBehaviour {
 	public float playerSpeed = 5f;
 
 	public float rangeHorizontal = 4.5f;
-
-	public Vector3 lastFramePosition;
-	public float lastRotation;
+	
+	private float excitement = 1f;
 
 	// Use this for initialization
 	void Start () {
-		lastFramePosition = transform.position;
+
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		Unstuck ();
 		MoveUsingAxis ();
+		TiltBack ();
 
 	}
 
 	private void MoveUsingAxis(){
 		if (Mathf.Abs(transform.position.x) <= rangeHorizontal) {
-			transform.Translate (Vector3.right * playerSpeed / 10f * Input.GetAxis ("Horizontal"));
+			transform.position += (Vector3.right * playerSpeed / 10f * Input.GetAxis ("Horizontal"));
+			transform.Rotate(Vector3.forward * Input.GetAxis("Horizontal") * -4f);
 		}
 
 	}
@@ -47,11 +48,19 @@ public class PlayerController : MonoBehaviour {
 
 	}
 
-	private void TurnWhileSwim(){
-		Vector3 temp = transform.position;
-		if (lastFramePosition.x != transform.position.x) {
-			transform.rotation = Quaternion.Euler(0f,0f, lastFramePosition.x - transform.position.x);
+
+
+	void TiltBack(){
+		if (transform.rotation.eulerAngles.z != 0) {
+			transform.rotation = Quaternion.Lerp (transform.rotation, Quaternion.identity, 0.025f);
+			//if(Mathf.Abs(transform.rotation.eulerAngles.z) < 5)
+				//transform.rotation = Quaternion.identity;
 		}
-		transform.position = temp;
+	}
+
+	void CalmDown(){
+		if (excitement > 1f)
+			excitement -= 0.005f;
+
 	}
 }
