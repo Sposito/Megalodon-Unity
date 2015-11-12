@@ -26,14 +26,14 @@ public class WalkHorizontally : MonoBehaviour {
 	
 	void MoveAround(){
 		if (transform.position.x >= -amplitude && movingToRight && move) {
-			transform.Translate (Vector3.right * speed / 100);
+			transform.position += (Vector3.right * speed / 100);
 			if (transform.position.x > amplitude){
 				transform.position = new Vector3(amplitude, transform.position.y);
 				movingToRight = false;
 			}
 		}
 		else if (transform.position.x <= amplitude && !movingToRight && move) {
-			transform.Translate (Vector3.left * speed / 100);
+			transform.position += (Vector3.left * speed / 100);
 			if (transform.position.x < -amplitude){
 				transform.position = new Vector3(-amplitude, transform.position.y);
 				movingToRight = true;

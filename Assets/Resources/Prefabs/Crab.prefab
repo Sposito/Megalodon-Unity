@@ -16,8 +16,8 @@ GameObject:
   - 58: {fileID: 5869398}
   - 58: {fileID: 5868348}
   - 58: {fileID: 5810380}
-  - 114: {fileID: 11435644}
   - 114: {fileID: 11459666}
+  - 114: {fileID: 11485824}
   m_Layer: 0
   m_Name: Crab
   m_TagString: Untagged
@@ -33,7 +33,7 @@ Transform:
   m_GameObject: {fileID: 100090}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 7.13000011, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -261,6 +261,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particles: {fileID: 104248, guid: 5dde3f7d874be4d658354ff876aed0c5, type: 2}
+  sound: {fileID: 0}
+  hits: 0
+  boss: 1
 --- !u!114 &11429432
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -275,18 +278,6 @@ MonoBehaviour:
   speed: 8
   amplitude: 4.5
   movingToRight: 1
---- !u!114 &11435644
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100090}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b32be4fc16105437b8e0af7fe43a0214, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  makeBoss: 0
 --- !u!114 &11459666
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -300,6 +291,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   yPos: 3.20000005
   speed: 1
+--- !u!114 &11485824
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68a66ca3d69fa4ae4abaaf4d6d0ad525, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  remoraBool: 0
 --- !u!212 &21207608
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -335,6 +338,18 @@ Prefab:
     m_Modifications:
     - target: {fileID: 0}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: boss
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
