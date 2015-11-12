@@ -34,9 +34,14 @@ public class StartButtonBehaviour : MonoBehaviour {
 			sound.GetComponent<AudioSource>().Play();
 			Instantiate (particles, other.transform.position, Quaternion.identity);
 			Destroy (other.gameObject);
-			fadeBool = true;
-			move = false;
-			SingletonController.ReleaseTheCrab();
+
+			SingletonController.bossLife -= 1f;
+			if (SingletonController.bossLife <= 0){
+				fadeBool = true;
+				move = false;
+				SingletonController.HereComesTheMegalodon();
+			}
+
 
 
 		}
