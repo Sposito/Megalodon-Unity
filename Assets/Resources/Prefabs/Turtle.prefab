@@ -109,6 +109,8 @@ GameObject:
   - 114: {fileID: 11461614}
   - 114: {fileID: 11485882}
   - 50: {fileID: 5016056}
+  - 114: {fileID: 11468022}
+  - 114: {fileID: 11411622}
   m_Layer: 0
   m_Name: Turtle
   m_TagString: Untagged
@@ -230,7 +232,7 @@ CircleCollider2D:
   m_GameObject: {fileID: 190138}
   m_Enabled: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: -.150000006}
   serializedVersion: 2
@@ -252,6 +254,17 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11411622
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 190138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c70ac685f87b4d95afa104c966b538d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11461614
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -264,6 +277,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
+--- !u!114 &11468022
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 190138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d39e121bbc02e41ee85c14c429929f5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particles: {fileID: 104248, guid: 5dde3f7d874be4d658354ff876aed0c5, type: 2}
+  sound: {fileID: 0}
+  hits: 0
+  boss: 0
 --- !u!114 &11485882
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -275,6 +303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d54889ad4f3740c2a6f9515eae2a3db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  baseRadius: 0
 --- !u!212 &21207768
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -453,6 +482,14 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: speed
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: particles
+      value: 
+      objectReference: {fileID: 104248, guid: 5dde3f7d874be4d658354ff876aed0c5, type: 2}
+    - target: {fileID: 0}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
