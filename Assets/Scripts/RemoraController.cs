@@ -26,7 +26,7 @@ public class RemoraController : MonoBehaviour {
 
 	void Fire(){
 		Vector3 position = tikTok ? transform.FindChild ("LeftFin").position : transform.FindChild ("RightFin").position;
-		GameObject remora = (GameObject)Instantiate(remoraPrefab, position, Quaternion.identity);
+		GameObject remora = (GameObject)Instantiate(remoraPrefab, position, transform.rotation);
 		remora.layer = 9; // This sets the remora in the Player's layer of collision, meaning it only hits enemy "stuff"
 		tikTok = !tikTok;
 
