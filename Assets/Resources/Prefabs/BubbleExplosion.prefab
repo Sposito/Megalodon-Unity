@@ -10,6 +10,7 @@ GameObject:
   - 4: {fileID: 464012}
   - 198: {fileID: 19853220}
   - 199: {fileID: 19953126}
+  - 114: {fileID: 11408844}
   m_Layer: 0
   m_Name: BubbleExplosion
   m_TagString: Untagged
@@ -29,6 +30,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!114 &11408844
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 104248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a0458f82f96246899776b0b1175658d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  seconds: 6
 --- !u!198 &19853220
 ParticleSystem:
   m_ObjectHideFlags: 1
@@ -1105,7 +1118,7 @@ ParticleSystemRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 100
   m_RenderMode: 3
   m_MaxParticleSize: .5
   m_CameraVelocityScale: 0
@@ -1224,6 +1237,14 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: EmissionModule.rate.scalar
       value: 63.2000008
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: seconds
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_SortingOrder
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

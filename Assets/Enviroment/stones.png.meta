@@ -1,0 +1,224 @@
+fileFormatVersion: 2
+guid: e00376751e6452d44b1e025355c32176
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: stone1
+    21300002: plane1
+    21300004: plane2
+    21300006: plane4
+    21300008: darkplane
+    21300010: stone2
+    21300012: stone3
+    21300014: stone4
+    21300016: stone6
+    21300018: stone7
+    21300020: stone8
+    21300022: stone9
+    21300024: stone5
+    21300026: cavebottom
+    21300028: cavetop
+    21300030: stones_15
+    21300032: plane3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 150
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: stone1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 938
+        width: 82
+        height: 86
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: plane1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 978
+        width: 177
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: plane2
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 953
+        width: 76
+        height: 71
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: plane4
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 939
+        width: 86
+        height: 84
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: darkplane
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 941
+        width: 89
+        height: 83
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: stone2
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 956
+        width: 70
+        height: 68
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: stone3
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 928
+        width: 69
+        height: 96
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: stone4
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 952
+        width: 104
+        height: 72
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: stone6
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 913
+        width: 138
+        height: 110
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: stone7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 814
+        width: 228
+        height: 97
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: stone8
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 866
+        width: 78
+        height: 46
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: stone9
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 818
+        width: 200
+        height: 93
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: stone5
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 844
+        width: 62
+        height: 68
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cavebottom
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 625
+        width: 628
+        height: 188
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: cavetop
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 473
+        width: 508
+        height: 152
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: plane3
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 947
+        width: 88
+        height: 76
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

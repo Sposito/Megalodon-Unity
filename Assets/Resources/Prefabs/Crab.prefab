@@ -18,7 +18,7 @@ GameObject:
   - 58: {fileID: 5810380}
   - 114: {fileID: 11459666}
   - 114: {fileID: 11485824}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Crab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -351,6 +351,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: boss
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

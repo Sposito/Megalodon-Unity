@@ -1,0 +1,386 @@
+fileFormatVersion: 2
+guid: abf2c53ab17d14c57a92b1434589f427
+timeCreated: 1448372276
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Shark_0
+    21300002: Shark_1
+    21300004: Shark_2
+    21300006: Shark_3
+    21300008: Shark_4
+    21300010: Shark_5
+    21300012: Shark_6
+    21300014: Shark_7
+    21300016: Shark_8
+    21300018: Shark_9
+    21300020: Shark_10
+    21300022: Shark_11
+    21300024: Shark_12
+    21300026: Shark_13
+    21300028: Shark_14
+    21300030: Shark_15
+    21300032: Shark_16
+    21300034: Shark_17
+    21300036: Shark_18
+    21300038: Shark_19
+    21300040: Shark_20
+    21300042: Shark_21
+    21300044: Shark_22
+    21300046: Shark_23
+    21300048: Shark_24
+    21300050: Shark_25
+    21300052: Shark_26
+    21300054: Shark_27
+    21300056: Shark_28
+    21300058: Shark_29
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 180
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Shark_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 237
+        height: 512
+      alignment: 9
+      pivot: {x: .5, y: .850000024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shark_1
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 1536
+        width: 237
+        height: 512
+      alignment: 9
+      pivot: {x: .5, y: .850000024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shark_2
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1536
+        width: 237
+        height: 512
+      alignment: 9
+      pivot: {x: .5, y: .850000024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shark_3
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1536
+        width: 237
+        height: 512
+      alignment: 9
+      pivot: {x: .5, y: .850000024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shark_4
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 1536
+        width: 237
+        height: 512
+      alignment: 9
+      pivot: {x: .5, y: .850000024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shark_5
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 1536
+        width: 237
+        height: 512
+      alignment: 9
+      pivot: {x: .5, y: .850000024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shark_6
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 1536
+        width: 237
+        height: 512
+      alignment: 9
+      pivot: {x: .5, y: .850000024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shark_7
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 1536
+        width: 237
+        height: 512
+      alignment: 9
+      pivot: {x: .5, y: .850000024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shark_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 237
+        height: 512
+      alignment: 9
+      pivot: {x: .5, y: .850000024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shark_9
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 1024
+        width: 237
+        height: 512
+      alignment: 9
+      pivot: {x: .5, y: .850000024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shark_10
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1024
+        width: 237
+        height: 512
+      alignment: 9
+      pivot: {x: .5, y: .850000024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shark_11
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 1024
+        width: 237
+        height: 512
+      alignment: 9
+      pivot: {x: .5, y: .850000024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shark_12
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 1024
+        width: 237
+        height: 512
+      alignment: 9
+      pivot: {x: .5, y: .850000024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shark_13
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 1024
+        width: 237
+        height: 512
+      alignment: 9
+      pivot: {x: .5, y: .850000024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shark_14
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 1024
+        width: 237
+        height: 512
+      alignment: 9
+      pivot: {x: .5, y: .850000024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shark_15
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 1024
+        width: 237
+        height: 512
+      alignment: 9
+      pivot: {x: .5, y: .850000024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shark_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 237
+        height: 512
+      alignment: 9
+      pivot: {x: .5, y: .850000024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shark_17
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 512
+        width: 237
+        height: 512
+      alignment: 9
+      pivot: {x: .5, y: .850000024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shark_18
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 512
+        width: 237
+        height: 512
+      alignment: 9
+      pivot: {x: .5, y: .850000024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shark_19
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 512
+        width: 237
+        height: 512
+      alignment: 9
+      pivot: {x: .5, y: .850000024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shark_20
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 512
+        width: 237
+        height: 512
+      alignment: 9
+      pivot: {x: .5, y: .850000024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shark_21
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 512
+        width: 237
+        height: 512
+      alignment: 9
+      pivot: {x: .5, y: .850000024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shark_22
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 512
+        width: 237
+        height: 512
+      alignment: 9
+      pivot: {x: .5, y: .850000024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shark_23
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 512
+        width: 237
+        height: 512
+      alignment: 9
+      pivot: {x: .5, y: .850000024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shark_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 237
+        height: 512
+      alignment: 9
+      pivot: {x: .5, y: .850000024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shark_25
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 0
+        width: 237
+        height: 512
+      alignment: 9
+      pivot: {x: .5, y: .850000024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shark_26
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 0
+        width: 237
+        height: 512
+      alignment: 9
+      pivot: {x: .5, y: .850000024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shark_27
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 0
+        width: 237
+        height: 512
+      alignment: 9
+      pivot: {x: .5, y: .850000024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shark_28
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 0
+        width: 237
+        height: 512
+      alignment: 9
+      pivot: {x: .5, y: .850000024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Shark_29
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 0
+        width: 237
+        height: 512
+      alignment: 9
+      pivot: {x: .5, y: .850000024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

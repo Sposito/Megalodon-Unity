@@ -21,7 +21,6 @@ public class ReceiveDamage : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D other){
 		if(other.CompareTag("Projectile")){
-			print("Started!");
 			Instantiate (particles, other.transform.position, Quaternion.identity);
 			sound.Play();
 			hits++;

@@ -11,7 +11,7 @@ public class MegalodonEntrace : MonoBehaviour {
 	public Color shadowIni;
 
 	public float maxYMovementPosition = 10.5f;
-	public float yDefinitivePosition = 3.5f;
+	static public float yDefinitivePosition = 3.5f;
 
 	private Color colorBackup;
 
@@ -33,6 +33,7 @@ public class MegalodonEntrace : MonoBehaviour {
 	void DisableComponents(){
 		GetComponent<WalkHorizontally> ().enabled = false;
 		GetComponent<ReceiveDamage> ().enabled = false;
+		GetComponent<LookAtPlayer> ().enabled = false;
 		Collider2D[] cols = GetComponents<Collider2D> ();
 		foreach (Collider2D col in cols) {
 			col.enabled = false;
@@ -43,6 +44,7 @@ public class MegalodonEntrace : MonoBehaviour {
 	void EnableComponents(){
 		GetComponent<WalkHorizontally> ().enabled = true;
 		GetComponent<ReceiveDamage> ().enabled = true;
+		GetComponent<LookAtPlayer> ().enabled = true;
 		Collider2D[] cols = GetComponents<Collider2D> ();
 		foreach (Collider2D col in cols) {
 			col.enabled = true;

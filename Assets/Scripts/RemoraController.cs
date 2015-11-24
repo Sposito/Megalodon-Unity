@@ -15,7 +15,7 @@ public class RemoraController : MonoBehaviour {
 		//CreateRemoras ();
 	}
 	
-	// Update is called once per frame
+
 	void Update () {
 		if(Input.GetKeyUp(KeyCode.Space) ){
 			Fire ();
@@ -26,33 +26,11 @@ public class RemoraController : MonoBehaviour {
 
 	void Fire(){
 		Vector3 position = tikTok ? transform.FindChild ("LeftFin").position : transform.FindChild ("RightFin").position;
-		Instantiate(remoraPrefab, position, Quaternion.identity);
+		GameObject remora = (GameObject)Instantiate(remoraPrefab, position, Quaternion.identity);
+		remora.layer = 9; // This sets the remora in the Player's layer of collision, meaning it only hits enemy "stuff"
 		tikTok = !tikTok;
 
 	}
 
 
-	/*
-	private void Reload(){
-		if (lFin == null) {
-			if ( remoraPool[0] != null){
-				remoraPool[0].SendMessage("Load");
-				//lFin = 
-			}
-		}
-	}
-	/// <summary> Instatiate two lines of remoras in each side of the scene.</summary>
-	private void CreateRemoras(){
-		for (int i = 0; i < remoraPool.Length; i++) {
-			remoraPool[i] = (GameObject)Instantiate(remoraPrefab, Vector3.zero,Quaternion.identity);
-			if (i < 3){
-				remoraPool[i].transform.position = new Vector3(-3f, -5.7f - (i * 2) );
-			}
-			else{
-				remoraPool[i].transform.position = new Vector3(3f, -5.7f - ((i - 3) * 2f) );
-			}
-
-		}
-	}
-	*/
 }
