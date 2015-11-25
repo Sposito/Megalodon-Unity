@@ -13,11 +13,13 @@ public class RemoraController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		//CreateRemoras ();
+
+	
 	}
 	
 
 	void Update () {
-		if(Input.GetKeyUp(KeyCode.Space) ){
+		if(Input.GetKeyUp(KeyCode.Space ) || Input.GetKeyUp(KeyCode.Joystick1Button2) ){
 			Fire ();
 		}
 
