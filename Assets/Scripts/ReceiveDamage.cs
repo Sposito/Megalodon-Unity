@@ -6,7 +6,8 @@ public class ReceiveDamage : MonoBehaviour {
 	public GameObject particles;
 	public AudioSource sound;
 
-	public int hits = 0;
+	public int maxHits = 1;
+	public int hits;
 
 	public bool boss;
 	public bool player;
@@ -31,7 +32,8 @@ public class ReceiveDamage : MonoBehaviour {
 			if(player)
 				SingletonController.PlayerHited();
 
-			Destroy (other.gameObject);
+			if(hits >= maxHits)
+				Destroy (other.gameObject);
 		}
 
 	}

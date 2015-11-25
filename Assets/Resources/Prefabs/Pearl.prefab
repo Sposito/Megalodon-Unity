@@ -13,6 +13,7 @@ GameObject:
   - 114: {fileID: 11464460}
   - 50: {fileID: 5075104}
   - 58: {fileID: 5823852}
+  - 114: {fileID: 11499132}
   m_Layer: 0
   m_Name: Pearl
   m_TagString: Projectile
@@ -85,6 +86,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
+--- !u!114 &11499132
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 164528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04ca6aace4c824398bace33a67cb8a08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  kind: 0
 --- !u!212 &21220908
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -125,6 +138,10 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: m_TagString
       value: Projectile
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: kind
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
