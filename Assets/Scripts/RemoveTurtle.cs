@@ -19,6 +19,7 @@ public class RemoveTurtle : MonoBehaviour {
 			
 			if (tL.havePowerUp){
 				GameObject pUp = (GameObject)Instantiate(powerUp, transform.position,Quaternion.identity);
+
 			}
 			GameObject.Destroy (gameObject);
 		}
