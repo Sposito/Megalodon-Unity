@@ -34,6 +34,7 @@ public class MegalodonEntrace : MonoBehaviour {
 		GetComponent<WalkHorizontally> ().enabled = false;
 		GetComponent<ReceiveDamage> ().enabled = false;
 		GetComponent<LookAtPlayer> ().enabled = false;
+		GetComponent<BossProjectileShooter> ().enabled = false;
 		Collider2D[] cols = GetComponents<Collider2D> ();
 		foreach (Collider2D col in cols) {
 			col.enabled = false;
@@ -45,6 +46,7 @@ public class MegalodonEntrace : MonoBehaviour {
 		GetComponent<WalkHorizontally> ().enabled = true;
 		GetComponent<ReceiveDamage> ().enabled = true;
 		GetComponent<LookAtPlayer> ().enabled = true;
+		GetComponent<BossProjectileShooter> ().enabled = true;
 		Collider2D[] cols = GetComponents<Collider2D> ();
 		foreach (Collider2D col in cols) {
 			col.enabled = true;

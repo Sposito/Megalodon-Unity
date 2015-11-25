@@ -9,6 +9,7 @@ public class ReceiveDamage : MonoBehaviour {
 	public int hits = 0;
 
 	public bool boss;
+	public bool player;
 
 	void Start () {
 		sound = GameObject.Find ("BubblesSound").GetComponent<AudioSource>();
@@ -27,6 +28,8 @@ public class ReceiveDamage : MonoBehaviour {
 
 			if (boss)
 				SingletonController.bossLife -= 1f;
+			if(player)
+				SingletonController.PlayerHited();
 
 			Destroy (other.gameObject);
 		}

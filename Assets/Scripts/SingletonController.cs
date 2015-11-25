@@ -54,6 +54,9 @@ public class SingletonController : MonoBehaviour {
 		bossLife = bossTotalLife;
 	}
 
+	public static void PlayerHited(){
+		print ("Player Hitted");
+	}
 
 
 
