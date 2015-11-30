@@ -29,6 +29,7 @@ public class SingletonController : MonoBehaviour {
 			isPaused = !isPaused;
 
 		Time.timeScale = isPaused ? 0f : 1f;
+
 	}
 
 	void LoadEnviroment(){
