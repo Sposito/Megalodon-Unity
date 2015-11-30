@@ -201,11 +201,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d39e121bbc02e41ee85c14c429929f5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  kind: 1
   particles: {fileID: 104248, guid: 5dde3f7d874be4d658354ff876aed0c5, type: 2}
-  sound: {fileID: 0}
+  maxHits: 1
   hits: 0
-  boss: 1
-  player: 0
 --- !u!114 &11468258
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -276,6 +275,10 @@ Prefab:
       propertyPath: projectilePrefab
       value: 
       objectReference: {fileID: 116498, guid: 19c078c1844ad4d95bb06cfd7c9e7fcf, type: 2}
+    - target: {fileID: 0}
+      propertyPath: kind
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 153302}

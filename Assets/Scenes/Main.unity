@@ -128,6 +128,10 @@ Prefab:
       propertyPath: angle
       value: .819999993
       objectReference: {fileID: 0}
+    - target: {fileID: 8193220, guid: 1ff81a28dcbae497f81a7732139dddd4, type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11480054, guid: 1ff81a28dcbae497f81a7732139dddd4, type: 2}
     - {fileID: 11447426, guid: 1ff81a28dcbae497f81a7732139dddd4, type: 2}
@@ -223,12 +227,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d39e121bbc02e41ee85c14c429929f5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  kind: 0
   particles: {fileID: 110534, guid: 1987e4aa40f364cf4be2c5f749ad4877, type: 2}
-  sound: {fileID: 0}
   maxHits: 1
   hits: 9999
-  boss: 0
-  player: 0
 --- !u!61 &611598388
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -284,12 +286,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d39e121bbc02e41ee85c14c429929f5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  kind: 0
   particles: {fileID: 104248, guid: 5dde3f7d874be4d658354ff876aed0c5, type: 2}
-  sound: {fileID: 0}
   maxHits: 5
   hits: 0
-  boss: 0
-  player: 0
 --- !u!1 &855024114 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 188408, guid: d1468425d6adc40ea90e6be3f7865d86, type: 2}
@@ -305,12 +305,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d39e121bbc02e41ee85c14c429929f5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  kind: 0
   particles: {fileID: 104248, guid: 5dde3f7d874be4d658354ff876aed0c5, type: 2}
-  sound: {fileID: 0}
   maxHits: 5
   hits: 0
-  boss: 0
-  player: 0
 --- !u!1001 &1097901822
 Prefab:
   m_ObjectHideFlags: 0
@@ -851,7 +849,12 @@ Prefab:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 11407276, guid: dfaae4e78355e4789940cb1300f9bb5e, type: 2}
+      propertyPath: kind
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 11453434, guid: dfaae4e78355e4789940cb1300f9bb5e, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: dfaae4e78355e4789940cb1300f9bb5e, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1958908964
@@ -908,12 +911,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d39e121bbc02e41ee85c14c429929f5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  kind: 0
   particles: {fileID: 110534, guid: 1987e4aa40f364cf4be2c5f749ad4877, type: 2}
-  sound: {fileID: 0}
   maxHits: 1
   hits: 9999
-  boss: 0
-  player: 0
 --- !u!114 &1958908968
 MonoBehaviour:
   m_ObjectHideFlags: 0
