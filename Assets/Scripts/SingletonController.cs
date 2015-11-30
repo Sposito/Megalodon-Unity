@@ -9,6 +9,8 @@ public class SingletonController : MonoBehaviour {
 	public static float bossTotalLife = 3;
 	public static float bossLife = 3;
 
+	private bool isPaused = false;
+
 
 
 	void Start () {
@@ -23,8 +25,10 @@ public class SingletonController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		if (Input.GetKeyUp (KeyCode.P))
+			isPaused = !isPaused;
 
-	
+		Time.timeScale = isPaused ? 0f : 1f;
 	}
 
 	void LoadEnviroment(){
@@ -56,6 +60,19 @@ public class SingletonController : MonoBehaviour {
 
 	public static void PlayerHited(){
 		print ("Player Hitted");
+		SpriteRenderer pColor = player.GetComponent<SpriteRenderer> ();
+		Color color = new Color (pColor.color.r, pColor.color.g, pColor.color.b, .5f);
+		pColor.color = color;
+
+
+	}
+
+	private static IEnumerable SetPlayerInvunerable(){
+		Color pColor = player.GetComponent<SpriteRenderer> ().color;
+
+		while (pColor.a != 1f) {
+			yield return new WaitForEndOfFrame();
+		}
 	}
 
 

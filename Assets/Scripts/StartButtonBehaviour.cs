@@ -23,7 +23,7 @@ public class StartButtonBehaviour : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
+		if(Time.timeScale != 0f)
 		MoveAround ();
 		FadeOut ();
 	}

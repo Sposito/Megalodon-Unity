@@ -58,6 +58,11 @@ public class MegalodonEntrace : MonoBehaviour {
 		transform.rotation = Quaternion.identity;
 		while (transform.position.y < maxYMovementPosition) {
 			transform.Translate (Vector3.up * 5 / 100);
+
+			//used for pause the coroutine in the event of a pause
+			if(Time.timeScale == 0f){
+				yield return new WaitForSeconds(0.1f);
+			}
 			yield return new WaitForEndOfFrame();
 		}
 		StartCoroutine ("GetInPlace");
@@ -72,6 +77,11 @@ public class MegalodonEntrace : MonoBehaviour {
 
 			transform.rotation = Quaternion.Euler(0f,0f,180f);
 			transform.Translate (Vector3.up * 5 / 100);
+
+			//used for pause the coroutine in the event of a pause
+			if(Time.timeScale == 0f){
+				yield return new WaitForSeconds(0.1f);
+			}
 			yield return new WaitForEndOfFrame();
 		}
 		EnableComponents ();

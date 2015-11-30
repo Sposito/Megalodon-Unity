@@ -11,6 +11,7 @@ public class MoveAhead : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		if(Time.timeScale != 0f)
 		transform.Translate(Vector3.up * speed / 100);
 	}
 }
