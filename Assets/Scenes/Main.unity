@@ -823,11 +823,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 489006, guid: dfaae4e78355e4789940cb1300f9bb5e, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -.00692754891
       objectReference: {fileID: 0}
     - target: {fileID: 489006, guid: dfaae4e78355e4789940cb1300f9bb5e, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: .999976039
       objectReference: {fileID: 0}
     - target: {fileID: 489006, guid: dfaae4e78355e4789940cb1300f9bb5e, type: 2}
       propertyPath: m_RootOrder
