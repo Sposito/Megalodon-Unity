@@ -8,6 +8,9 @@ public class RemoraController : MonoBehaviour {
 	GameObject rFin;
 	GameObject lFin;
 	bool tikTok = false;
+	int bullets = 2;
+	public float reloadTime = 1f;
+	float timer = 0f;
 
 
 	// Use this for initialization
@@ -19,7 +22,11 @@ public class RemoraController : MonoBehaviour {
 	
 
 	void Update () {
+		timer += Time.deltaTime;
+		AutoReload ();
+
 		if(Input.GetKeyUp(KeyCode.Space ) || Input.GetKeyUp(KeyCode.Joystick1Button2) ){
+			if(bullets > 0)
 			Fire ();
 		}
 
@@ -31,7 +38,16 @@ public class RemoraController : MonoBehaviour {
 		GameObject remora = (GameObject)Instantiate(remoraPrefab, position, transform.rotation);
 		remora.layer = 9; // This sets the remora in the Player's layer of collision, meaning it only hits enemy "stuff"
 		tikTok = !tikTok;
+		bullets--;
+		timer = 0f;
 
+	}
+
+	void AutoReload(){
+		if (bullets < 2 && timer > reloadTime) {
+			bullets++;
+			timer = 0f;
+		}
 	}
 
 
