@@ -59,8 +59,9 @@ public class ReceiveDamage : MonoBehaviour {
 			sound.Play();
 			hits++;
 
-			if (boss)
-				SingletonController.bossLife -= 1f;
+			if (boss){
+				SingletonController.BossHited();
+			}
 			if(player)
 				SingletonController.PlayerHited();
 

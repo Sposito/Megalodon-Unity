@@ -10,10 +10,11 @@ public class SingletonController : MonoBehaviour {
 	public static float bossLife = 3;
 
 	private bool isPaused = false;
+	static private bool spawnTurtles = false;
 
 
 
-	void Start () {
+	void Awake () {
 		LoadEnviroment ();
 		player = GameObject.Find ("Player");
 		StartCoroutine("TurtleSpawn");
@@ -25,15 +26,22 @@ public class SingletonController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKeyUp (KeyCode.P))
-			isPaused = !isPaused;
-
-		Time.timeScale = isPaused ? 0f : 1f;
+		PauseGame ();
 
 	}
 
+
+	//LOAD GAME ENVIROMENT OBJECTS
 	void LoadEnviroment(){
 		Application.LoadLevelAdditive (1);
+	}
+
+	//PAUSE CURRENT GAME
+	void PauseGame(){
+		if (Input.GetKeyUp (KeyCode.P))
+			isPaused = !isPaused;
+		
+		Time.timeScale = isPaused ? 0f : 1f;
 	}
 
 	//METHOD WHICH CALLS THE GIANT CRAB
@@ -58,14 +66,26 @@ public class SingletonController : MonoBehaviour {
 		bossTotalLife = 70f;
 		bossLife = bossTotalLife;
 	}
-
+	//Player Receives Damage
 	public static void PlayerHited(){
 		print ("Player Hitted");
 		SpriteRenderer pColor = player.GetComponent<SpriteRenderer> ();
 		Color color = new Color (pColor.color.r, pColor.color.g, pColor.color.b, .5f);
 		pColor.color = color;
 
+	}
+	//Boss Receives Damage
+	public static void BossHited(){
+		bossLife -= 1f;
+		if (bossTotalLife > 5f) { // JUST CHECKING IF THE BOSS ISNT THE START BUTTON
+			if( bossLife < bossTotalLife ){
+				spawnTurtles = true;
+			}
 
+
+		}
+	
+	
 	}
 
 	private static IEnumerable SetPlayerInvunerable(){
@@ -79,6 +99,10 @@ public class SingletonController : MonoBehaviour {
 
 
 	IEnumerator TurtleSpawn(){
+		while (!spawnTurtles)
+			yield return new WaitForSeconds (1f);
+
+
 		GameObject turtle = (GameObject)Resources.Load ("Prefabs/Turtle");
 		Vector3 turtleSpawnPoint;
 		turtleSpawnPoint = GameObject.Find ("Turtle Spawn Point").transform.position;
@@ -94,7 +118,6 @@ public class SingletonController : MonoBehaviour {
 
 		
 		}
-
-		
+		spawnTurtles = false;
 	}
 }

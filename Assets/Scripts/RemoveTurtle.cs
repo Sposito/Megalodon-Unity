@@ -6,10 +6,12 @@ public class RemoveTurtle : MonoBehaviour {
 	ReceiveDamage rD;
 	GameObject powerUp;
 	TurtleLoop tL;
+	bool playerLayer;
 	void Start () {
 		rD = GetComponent<ReceiveDamage> ();
 		tL = GetComponent<TurtleLoop> ();
 		powerUp = (GameObject)Resources.Load ("Prefabs/PowerUpBubble");
+		playerLayer = (gameObject.layer == 9);
 	}
 	
 
@@ -17,7 +19,7 @@ public class RemoveTurtle : MonoBehaviour {
 		if (rD.hits > 0){
 
 			
-			if (tL.havePowerUp){
+			if (playerLayer ? false : tL.havePowerUp){
 				GameObject pUp = (GameObject)Instantiate(powerUp, transform.position,Quaternion.identity);
 				pUp.GetComponent<PowerUpController>().SetSprite(PowerUpController.pUPKINDS.turtle);
 			}
