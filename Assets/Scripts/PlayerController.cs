@@ -6,6 +6,8 @@ public class PlayerController : MonoBehaviour {
 	public float playerSpeed = 5f;
 
 	public float rangeHorizontal = 4.5f;
+
+	public float tiltBackSpeed = 5f;
 	
 	private float excitement = 1f;
 
@@ -66,10 +68,10 @@ public class PlayerController : MonoBehaviour {
 	}
 
 
-
+	//TODO
 	void TiltBack(){
 		if (transform.rotation.eulerAngles.z != 0) {
-			transform.rotation = Quaternion.Lerp (transform.rotation, Quaternion.identity, 0.05f);
+			transform.rotation = Quaternion.Lerp (transform.rotation, Quaternion.identity, tiltBackSpeed / 100);
 			//if(Mathf.Abs(transform.rotation.eulerAngles.z) < 5)
 				//transform.rotation = Quaternion.identity;
 		}
