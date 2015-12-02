@@ -20,6 +20,7 @@ public class ReceiveDamage : MonoBehaviour {
 
 	void Start () {
 		sound = GameObject.Find ("BubblesSound").GetComponent<AudioSource>();
+		particles = (GameObject)Resources.Load ("Prefabs/BubbleExplosion");
 		SetKind ();
 	}
 	
@@ -58,6 +59,7 @@ public class ReceiveDamage : MonoBehaviour {
 			Instantiate (particles, other.transform.position, Quaternion.identity);
 			sound.Play();
 			hits++;
+			Destroy (other.gameObject);
 
 			if (boss){
 				SingletonController.BossHited();
@@ -65,8 +67,8 @@ public class ReceiveDamage : MonoBehaviour {
 			if(player)
 				SingletonController.PlayerHited();
 
-			if(hits >= maxHits)
-				Destroy (other.gameObject);
+			//if(hits >= maxHits)
+				//Destroy (gameObject);
 		}
 
 	}

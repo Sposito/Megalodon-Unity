@@ -7,7 +7,7 @@ public class PowerUpController : MonoBehaviour {
 
 	private GameObject particles;
 	private AudioSource sound;
-
+	private PlayerController playerController;
 	public enum pUPKINDS{turtle, scallop, eal}
 	private pUPKINDS kind;
 
@@ -17,6 +17,7 @@ public class PowerUpController : MonoBehaviour {
 	void Start () {
 		sound = GameObject.Find ("BubblesSound").GetComponent<AudioSource>();
 		particles = (GameObject)Resources.Load ("Prefabs/BubbleExplosion");
+		playerController = SingletonController.player.GetComponent<PlayerController>();
 	}
 
 	public void SetSprite(pUPKINDS kinds){
@@ -35,7 +36,15 @@ public class PowerUpController : MonoBehaviour {
 		if (other.gameObject.name == "Player") {
 			Instantiate (particles, transform.position, Quaternion.identity);
 			sound.Play();
+			//playerController.turtleCount = 4;
+			GameObject.Destroy(playerController.powerUp1);
+			playerController.powerUp1 = (GameObject)Instantiate(Resources.Load("Prefabs/TurtlesPowerUp"),Vector3.zero,Quaternion.identity);
+			
+
+			}
+			SingletonController.player.GetComponent<PlayerController>().turtleCount = 4;
+
 			Destroy(gameObject);
 		}
-	}
+
 }

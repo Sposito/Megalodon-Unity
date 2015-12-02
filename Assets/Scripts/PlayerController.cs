@@ -4,12 +4,15 @@ using System.Collections;
 public class PlayerController : MonoBehaviour {
 
 	public float playerSpeed = 5f;
+	public int turtleCount = 0;
 
 	public float rangeHorizontal = 4.5f;
 
 	public float tiltBackSpeed = 5f;
 	
 	private float excitement = 1f;
+
+	public GameObject powerUp1;
 
 	// Use this for initialization
 	void Start () {
