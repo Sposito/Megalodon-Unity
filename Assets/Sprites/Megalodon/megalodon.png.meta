@@ -1,0 +1,705 @@
+fileFormatVersion: 2
+guid: d4e401d4ed2a7415d89f031e38ccc2af
+timeCreated: 1449087920
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: megalodon_0
+    21300002: megalodon_1
+    21300004: megalodon_2
+    21300006: megalodon_3
+    21300008: megalodon_4
+    21300010: megalodon_5
+    21300012: megalodon_6
+    21300014: megalodon_7
+    21300016: megalodon_8
+    21300018: megalodon_9
+    21300020: megalodon_10
+    21300022: megalodon_11
+    21300024: megalodon_12
+    21300026: megalodon_13
+    21300028: megalodon_14
+    21300030: megalodon_15
+    21300032: megalodon_16
+    21300034: megalodon_17
+    21300036: megalodon_18
+    21300038: megalodon_19
+    21300040: megalodon_20
+    21300042: megalodon_21
+    21300044: megalodon_22
+    21300046: megalodon_23
+    21300048: megalodon_24
+    21300050: megalodon_25
+    21300052: megalodon_26
+    21300054: megalodon_27
+    21300056: megalodon_28
+    21300058: megalodon_29
+    21300060: megalodon_30
+    21300062: megalodon_31
+    21300064: megalodon_32
+    21300066: megalodon_33
+    21300068: megalodon_34
+    21300070: megalodon_35
+    21300072: megalodon_36
+    21300074: megalodon_37
+    21300076: megalodon_38
+    21300078: megalodon_39
+    21300080: megalodon_40
+    21300082: megalodon_41
+    21300084: megalodon_42
+    21300086: megalodon_43
+    21300088: megalodon_44
+    21300090: megalodon_45
+    21300092: megalodon_46
+    21300094: megalodon_47
+    21300096: megalodon_48
+    21300098: megalodon_49
+    21300100: megalodon_50
+    21300102: megalodon_51
+    21300104: megalodon_52
+    21300106: megalodon_53
+    21300108: megalodon_54
+    21300110: megalodon_55
+    21300112: megalodon_56
+    21300114: megalodon_57
+    21300116: megalodon_58
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 8192
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 180
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: megalodon_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 7110
+        width: 520
+        height: 1076
+      alignment: 9
+      pivot: {x: .425221413, y: .912945271}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_1
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 7110
+        width: 520
+        height: 1076
+      alignment: 9
+      pivot: {x: .430014282, y: .913428068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_2
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 7106
+        width: 516
+        height: 1084
+      alignment: 9
+      pivot: {x: .436220616, y: .909394562}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_3
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 7102
+        width: 520
+        height: 1088
+      alignment: 9
+      pivot: {x: .44971782, y: .909843445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_4
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 7094
+        width: 520
+        height: 1096
+      alignment: 9
+      pivot: {x: .464011788, y: .911076665}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_5
+      rect:
+        serializedVersion: 2
+        x: 2642
+        y: 7082
+        width: 520
+        height: 1108
+      alignment: 9
+      pivot: {x: .49133113, y: .911695123}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_6
+      rect:
+        serializedVersion: 2
+        x: 3168
+        y: 7074
+        width: 522
+        height: 1118
+      alignment: 9
+      pivot: {x: .513146162, y: .910934508}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_7
+      rect:
+        serializedVersion: 2
+        x: 3698
+        y: 7070
+        width: 520
+        height: 1122
+      alignment: 9
+      pivot: {x: .532420933, y: .910703301}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_8
+      rect:
+        serializedVersion: 2
+        x: 4226
+        y: 7066
+        width: 516
+        height: 1126
+      alignment: 9
+      pivot: {x: .555347979, y: .910873473}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_9
+      rect:
+        serializedVersion: 2
+        x: 4750
+        y: 7070
+        width: 520
+        height: 1122
+      alignment: 9
+      pivot: {x: .575061023, y: .910242438}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_10
+      rect:
+        serializedVersion: 2
+        x: 5278
+        y: 7066
+        width: 520
+        height: 1126
+      alignment: 9
+      pivot: {x: .586045504, y: .908337116}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_11
+      rect:
+        serializedVersion: 2
+        x: 5806
+        y: 7066
+        width: 516
+        height: 1126
+      alignment: 9
+      pivot: {x: .601472616, y: .907491922}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_12
+      rect:
+        serializedVersion: 2
+        x: 6334
+        y: 7070
+        width: 516
+        height: 1120
+      alignment: 9
+      pivot: {x: .614386499, y: .90779984}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_13
+      rect:
+        serializedVersion: 2
+        x: 6862
+        y: 7074
+        width: 516
+        height: 1116
+      alignment: 9
+      pivot: {x: .627301335, y: .90544802}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_14
+      rect:
+        serializedVersion: 2
+        x: 7378
+        y: 7078
+        width: 528
+        height: 1112
+      alignment: 9
+      pivot: {x: .646044195, y: .903935075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_15
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 5942
+        width: 516
+        height: 1112
+      alignment: 9
+      pivot: {x: .643438637, y: .904079974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_16
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 5942
+        width: 516
+        height: 1112
+      alignment: 9
+      pivot: {x: .645679474, y: .90199995}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_17
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 5942
+        width: 520
+        height: 1112
+      alignment: 9
+      pivot: {x: .652343035, y: .901480019}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_18
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 5942
+        width: 520
+        height: 1112
+      alignment: 9
+      pivot: {x: .652342796, y: .901480019}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_19
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 5946
+        width: 516
+        height: 1104
+      alignment: 9
+      pivot: {x: .660247564, y: .90394789}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_20
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 5946
+        width: 522
+        height: 1104
+      alignment: 9
+      pivot: {x: .658405662, y: .902900577}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_21
+      rect:
+        serializedVersion: 2
+        x: 3170
+        y: 5950
+        width: 516
+        height: 1100
+      alignment: 9
+      pivot: {x: .65800631, y: .902567446}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_22
+      rect:
+        serializedVersion: 2
+        x: 3694
+        y: 5952
+        width: 520
+        height: 1098
+      alignment: 9
+      pivot: {x: .656570673, y: .90322423}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_23
+      rect:
+        serializedVersion: 2
+        x: 4222
+        y: 5958
+        width: 520
+        height: 1092
+      alignment: 9
+      pivot: {x: .652728736, y: .902602196}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_24
+      rect:
+        serializedVersion: 2
+        x: 4746
+        y: 5962
+        width: 520
+        height: 1088
+      alignment: 9
+      pivot: {x: .655610561, y: .902795255}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_25
+      rect:
+        serializedVersion: 2
+        x: 5274
+        y: 5958
+        width: 520
+        height: 1092
+      alignment: 9
+      pivot: {x: .646004558, y: .903517067}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_26
+      rect:
+        serializedVersion: 2
+        x: 5798
+        y: 5958
+        width: 524
+        height: 1096
+      alignment: 9
+      pivot: {x: .641076922, y: .901498616}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_27
+      rect:
+        serializedVersion: 2
+        x: 6326
+        y: 5958
+        width: 520
+        height: 1096
+      alignment: 9
+      pivot: {x: .637359142, y: .901954353}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_28
+      rect:
+        serializedVersion: 2
+        x: 6851
+        y: 5962
+        width: 523
+        height: 1092
+      alignment: 9
+      pivot: {x: .629885614, y: .901687324}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_29
+      rect:
+        serializedVersion: 2
+        x: 7378
+        y: 5966
+        width: 520
+        height: 1088
+      alignment: 9
+      pivot: {x: .62679255, y: .902336121}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4818
+        width: 522
+        height: 1104
+      alignment: 9
+      pivot: {x: .61359185, y: .901501656}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_31
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 4806
+        width: 524
+        height: 1116
+      alignment: 9
+      pivot: {x: .597656965, y: .905314982}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_32
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 4798
+        width: 520
+        height: 1124
+      alignment: 9
+      pivot: {x: .587156534, y: .906346858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_33
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 4790
+        width: 520
+        height: 1132
+      alignment: 9
+      pivot: {x: .570395589, y: .909028709}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_34
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 4786
+        width: 524
+        height: 1136
+      alignment: 9
+      pivot: {x: .557660997, y: .91035527}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_35
+      rect:
+        serializedVersion: 2
+        x: 2634
+        y: 4786
+        width: 520
+        height: 1136
+      alignment: 9
+      pivot: {x: .548047841, y: .911378264}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_36
+      rect:
+        serializedVersion: 2
+        x: 3162
+        y: 4786
+        width: 520
+        height: 1136
+      alignment: 9
+      pivot: {x: .531287074, y: .911378264}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_37
+      rect:
+        serializedVersion: 2
+        x: 3690
+        y: 4786
+        width: 520
+        height: 1136
+      alignment: 9
+      pivot: {x: .517878115, y: .911378264}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_38
+      rect:
+        serializedVersion: 2
+        x: 4218
+        y: 4790
+        width: 516
+        height: 1132
+      alignment: 9
+      pivot: {x: .506756425, y: .912108541}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_39
+      rect:
+        serializedVersion: 2
+        x: 4746
+        y: 4794
+        width: 516
+        height: 1128
+      alignment: 9
+      pivot: {x: .493243545, y: .911813319}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_40
+      rect:
+        serializedVersion: 2
+        x: 5270
+        y: 4794
+        width: 520
+        height: 1128
+      alignment: 9
+      pivot: {x: .485473633, y: .912328005}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_41
+      rect:
+        serializedVersion: 2
+        x: 5798
+        y: 4798
+        width: 516
+        height: 1124
+      alignment: 9
+      pivot: {x: .478605509, y: .910999477}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_42
+      rect:
+        serializedVersion: 2
+        x: 6323
+        y: 4802
+        width: 519
+        height: 1120
+      alignment: 9
+      pivot: {x: .470892221, y: .911217391}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_43
+      rect:
+        serializedVersion: 2
+        x: 6850
+        y: 4802
+        width: 520
+        height: 1116
+      alignment: 9
+      pivot: {x: .460891485, y: .914040208}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_44
+      rect:
+        serializedVersion: 2
+        x: 7378
+        y: 4806
+        width: 516
+        height: 1112
+      alignment: 9
+      pivot: {x: .453831881, y: .914270639}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3674
+        width: 518
+        height: 1108
+      alignment: 9
+      pivot: {x: .441096246, y: .913838208}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_46
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 3678
+        width: 516
+        height: 1104
+      alignment: 9
+      pivot: {x: .434596568, y: .913231909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_47
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 3682
+        width: 516
+        height: 1100
+      alignment: 9
+      pivot: {x: .421157241, y: .912621617}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_48
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 3690
+        width: 520
+        height: 1088
+      alignment: 9
+      pivot: {x: .41287303, y: .914161682}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_49
+      rect:
+        serializedVersion: 2
+        x: 2106
+        y: 3694
+        width: 520
+        height: 1084
+      alignment: 9
+      pivot: {x: .40131554, y: .913545847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_50
+      rect:
+        serializedVersion: 2
+        x: 2634
+        y: 3682
+        width: 516
+        height: 1096
+      alignment: 9
+      pivot: {x: .408614278, y: .91453743}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_51
+      rect:
+        serializedVersion: 2
+        x: 3162
+        y: 3678
+        width: 520
+        height: 1100
+      alignment: 9
+      pivot: {x: .407538772, y: .915563285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_52
+      rect:
+        serializedVersion: 2
+        x: 3690
+        y: 3670
+        width: 520
+        height: 1108
+      alignment: 9
+      pivot: {x: .414651245, y: .91592443}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_53
+      rect:
+        serializedVersion: 2
+        x: 4218
+        y: 3670
+        width: 520
+        height: 1108
+      alignment: 9
+      pivot: {x: .4190965, y: .916758597}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_54
+      rect:
+        serializedVersion: 2
+        x: 4746
+        y: 3670
+        width: 520
+        height: 1112
+      alignment: 9
+      pivot: {x: .423541725, y: .913608909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_55
+      rect:
+        serializedVersion: 2
+        x: 5274
+        y: 3670
+        width: 520
+        height: 1112
+      alignment: 9
+      pivot: {x: .424430966, y: .914024711}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_56
+      rect:
+        serializedVersion: 2
+        x: 5802
+        y: 3674
+        width: 520
+        height: 1108
+      alignment: 9
+      pivot: {x: .428876191, y: .913420856}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_57
+      rect:
+        serializedVersion: 2
+        x: 6334
+        y: 3682
+        width: 516
+        height: 1100
+      alignment: 9
+      pivot: {x: .422053844, y: .913461924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: megalodon_58
+      rect:
+        serializedVersion: 2
+        x: 6862
+        y: 3694
+        width: 516
+        height: 1088
+      alignment: 9
+      pivot: {x: .5, y: .850000024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

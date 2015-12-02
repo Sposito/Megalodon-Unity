@@ -44,7 +44,7 @@ public class SingletonController : MonoBehaviour {
 
 	//PAUSE CURRENT GAME
 	void PauseGame(){
-		if (Input.GetKeyUp (KeyCode.P))
+		if (Input.GetKeyUp (KeyCode.P) || Input.GetKeyUp(KeyCode.Joystick1Button9) )
 			isPaused = !isPaused;
 		
 		Time.timeScale = isPaused ? 0f : 1f;

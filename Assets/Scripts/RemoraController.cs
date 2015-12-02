@@ -25,7 +25,7 @@ public class RemoraController : MonoBehaviour {
 		timer += Time.deltaTime;
 		AutoReload ();
 
-		if(Input.GetKeyUp(KeyCode.Space ) || Input.GetKeyUp(KeyCode.Joystick1Button2) ){
+		if(Input.GetKeyUp(KeyCode.Space ) || Input.GetKeyUp(KeyCode.Joystick1Button1) ){
 			if(bullets > 0)
 			Fire ();
 		}

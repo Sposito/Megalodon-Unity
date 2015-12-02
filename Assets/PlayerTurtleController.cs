@@ -10,7 +10,9 @@ public class PlayerTurtleController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		transform.position = SingletonController.player.transform.position;
-		transform.Rotate (0f, 0f, speed);
+		if (Time.timeScale != 0f) {
+			transform.position = SingletonController.player.transform.position;
+			transform.Rotate (0f, 0f, speed);
+		}
 	}
 }
