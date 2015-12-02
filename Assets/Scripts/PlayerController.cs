@@ -21,9 +21,11 @@ public class PlayerController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		Unstuck ();
-		MoveUsingAxis ();
-		TiltBack ();
+		if (Time.timeScale != 0f) {
+			Unstuck ();
+			MoveUsingAxis ();
+			TiltBack ();
+		}
 
 	}
 

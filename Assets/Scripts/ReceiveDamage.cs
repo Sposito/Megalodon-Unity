@@ -13,6 +13,7 @@ public class ReceiveDamage : MonoBehaviour {
 	public int maxHits = 1;
 	public int hits;
 
+
 	private bool boss;
 	private bool player;
 	private bool powerUp;

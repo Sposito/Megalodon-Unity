@@ -9,7 +9,11 @@ public class SingletonController : MonoBehaviour {
 	public static float bossTotalLife = 3;
 	public static float bossLife = 3;
 
-	private bool isPaused = false;
+	private int playerTotalLife = 3;
+	private static int playerLife = 3;
+	private static GameObject[] heartnemones = new GameObject[3];
+
+	private static bool isPaused = false;
 	static private bool spawnTurtles = false;
 
 
@@ -18,6 +22,8 @@ public class SingletonController : MonoBehaviour {
 		LoadEnviroment ();
 		player = GameObject.Find ("Player");
 		StartCoroutine("TurtleSpawn");
+		for (int i = 0; i < playerTotalLife; i++)
+			heartnemones[i] = GameObject.Find ("heartnemone" + i);
 
 
 
@@ -68,10 +74,29 @@ public class SingletonController : MonoBehaviour {
 	}
 	//Player Receives Damage
 	public static void PlayerHited(){
-		print ("Player Hitted");
-		SpriteRenderer pColor = player.GetComponent<SpriteRenderer> ();
-		Color color = new Color (pColor.color.r, pColor.color.g, pColor.color.b, .5f);
-		pColor.color = color;
+		playerLife--;
+		switch (playerLife) {
+		case 2:
+			heartnemones [0].SetActive (false);
+			return;
+		case 1:
+			heartnemones [1].SetActive (false);
+			return;
+		case 0:
+			heartnemones [2].SetActive (false);
+			print ("GAME OVER");
+			isPaused = true;
+			return;
+		default:
+			return;
+
+
+		}
+		;
+
+		//SpriteRenderer pColor = player.GetComponent<SpriteRenderer> ();
+		//Color color = new Color (pColor.color.r, pColor.color.g, pColor.color.b, .5f);
+		//pColor.color = color;
 
 	}
 	//Boss Receives Damage

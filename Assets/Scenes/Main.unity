@@ -1214,7 +1214,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 133550, guid: 9727d38e9494f0b4b8bdc2c6e9ea5d4f, type: 2}
       propertyPath: m_Name
-      value: heartnemone (1)
+      value: heartnemone1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9727d38e9494f0b4b8bdc2c6e9ea5d4f, type: 2}
@@ -1355,6 +1355,10 @@ Prefab:
     - target: {fileID: 425664, guid: 9727d38e9494f0b4b8bdc2c6e9ea5d4f, type: 2}
       propertyPath: m_RootOrder
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 133550, guid: 9727d38e9494f0b4b8bdc2c6e9ea5d4f, type: 2}
+      propertyPath: m_Name
+      value: heartnemone2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9727d38e9494f0b4b8bdc2c6e9ea5d4f, type: 2}
