@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class SingletonController : MonoBehaviour {
-
+	
 	public static GameObject boss;
 	public static GameObject player;
 
@@ -10,8 +10,8 @@ public class SingletonController : MonoBehaviour {
 	public static float bossLife = 3;
 
 	private int playerTotalLife = 3;
-	private static int playerLife = 3;
-	private static GameObject[] heartnemones = new GameObject[3];
+	public static int playerLife = 3;
+	public static GameObject[] heartnemones = new GameObject[3];
 
 	private static bool isPaused = false;
 	static private bool spawnTurtles = false;
@@ -84,8 +84,7 @@ public class SingletonController : MonoBehaviour {
 			return;
 		case 0:
 			heartnemones [2].SetActive (false);
-			print ("GAME OVER");
-			isPaused = true;
+			Application.LoadLevelAdditive(2);
 			return;
 		default:
 			return;
@@ -102,7 +101,12 @@ public class SingletonController : MonoBehaviour {
 	//Boss Receives Damage
 	public static void BossHited(){
 		bossLife -= 1f;
+
+
 		if (bossTotalLife > 5f) { // JUST CHECKING IF THE BOSS ISNT THE START BUTTON
+			if (bossLife < 0f){
+				Application.LoadLevelAdditive(3);
+			}
 			if( bossLife < bossTotalLife ){
 				spawnTurtles = true;
 			}
