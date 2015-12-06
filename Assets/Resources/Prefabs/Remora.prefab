@@ -13,6 +13,7 @@ GameObject:
   - 58: {fileID: 5871346}
   - 114: {fileID: 11466134}
   - 82: {fileID: 8266510}
+  - 95: {fileID: 9508776}
   m_Layer: 0
   m_Name: Remora
   m_TagString: Projectile
@@ -115,6 +116,23 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
+--- !u!95 &9508776
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 116498}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a2f328b4917614526b1c55dde61b34f3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &11448968
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -162,7 +180,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 110
   m_Sprite: {fileID: 21300000, guid: f5c7032163f58422ea99e0608784428c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1001 &100100000
@@ -200,6 +218,10 @@ Prefab:
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: f67d4fae2bc51446d92d7791cbfdbb1b, type: 3}
+    - target: {fileID: 0}
+      propertyPath: m_SortingOrder
+      value: 110
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 116498}

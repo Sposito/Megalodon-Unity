@@ -1,11 +1,12 @@
 fileFormatVersion: 2
 guid: 27fe14a1b8e046c49bcd38b4234e8489
-timeCreated: 1449355898
+timeCreated: 1449427669
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: title_0
-    21300002: title_1
+    21300002: MegalodonTitle
+    21300004: Start
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -52,23 +53,23 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: title_0
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 0
-        width: 558
-        height: 154
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: title_1
+    - name: MegalodonTitle
       rect:
         serializedVersion: 2
         x: 0
-        y: 268
-        width: 1482
-        height: 183
+        y: 195
+        width: 1489
+        height: 189
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Start
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 0
+        width: 559
+        height: 155
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}

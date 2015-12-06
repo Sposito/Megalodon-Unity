@@ -1,9 +1,21 @@
 fileFormatVersion: 2
 guid: f5c7032163f58422ea99e0608784428c
-timeCreated: 1447164297
+timeCreated: 1449427192
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Remora_0
+    21300002: Remora_1
+    21300004: Remora_2
+    21300006: Remora_3
+    21300008: Remora_4
+    21300010: Remora_5
+    21300012: Remora_6
+    21300014: Remora_7
+    21300016: Remora_8
+    21300018: Remora_9
+    21300020: Remora_10
+    21300022: Remora_11
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,7 +42,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -38,18 +50,138 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: .5, y: .5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 200
   alphaIsTransparency: 1
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Remora_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 815
+        width: 103
+        height: 199
+      alignment: 9
+      pivot: {x: .5, y: .899999976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Remora_1
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 807
+        width: 103
+        height: 207
+      alignment: 9
+      pivot: {x: .5, y: .899999976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Remora_2
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 801
+        width: 103
+        height: 213
+      alignment: 9
+      pivot: {x: .5, y: .899999976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Remora_3
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 799
+        width: 103
+        height: 215
+      alignment: 9
+      pivot: {x: .5, y: .899999976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Remora_4
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 800
+        width: 103
+        height: 214
+      alignment: 9
+      pivot: {x: .5, y: .899999976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Remora_5
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 804
+        width: 103
+        height: 210
+      alignment: 9
+      pivot: {x: .5, y: .899999976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Remora_6
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 810
+        width: 103
+        height: 204
+      alignment: 9
+      pivot: {x: .5, y: .899999976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Remora_7
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 804
+        width: 103
+        height: 210
+      alignment: 9
+      pivot: {x: .5, y: .899999976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Remora_8
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 575
+        width: 103
+        height: 214
+      alignment: 9
+      pivot: {x: .5, y: .899999976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Remora_9
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 574
+        width: 103
+        height: 215
+      alignment: 9
+      pivot: {x: .5, y: .899999976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Remora_10
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 577
+        width: 103
+        height: 212
+      alignment: 9
+      pivot: {x: .5, y: .899999976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Remora_11
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 582
+        width: 103
+        height: 207
+      alignment: 9
+      pivot: {x: .5, y: .899999976}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
   assetBundleName: 
