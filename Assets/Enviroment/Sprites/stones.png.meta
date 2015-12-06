@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: e00376751e6452d44b1e025355c32176
-timeCreated: 1448390286
+timeCreated: 1449356470
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -22,6 +22,7 @@ TextureImporter:
     21300030: cavetop
     21300032: stones_16
     21300034: plane2
+    21300036: backstone
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -225,6 +226,16 @@ TextureImporter:
         y: 1894
         width: 177
         height: 152
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: backstone
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 49
+        width: 1927
+        height: 697
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}

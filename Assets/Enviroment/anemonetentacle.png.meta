@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 69ed395a5b8d829478c08a7a1bf7891b
-timeCreated: 1449095067
+timeCreated: 1449017335
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -87,8 +87,8 @@ TextureImporter:
         y: 424
         width: 20
         height: 74
-      alignment: 9
-      pivot: {x: .797746837, y: .0533797815}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: anemonetentacle_1
       rect:
@@ -97,8 +97,8 @@ TextureImporter:
         y: 424
         width: 19
         height: 75
-      alignment: 9
-      pivot: {x: .766405225, y: .0593347177}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: anemonetentacle_2
       rect:
@@ -107,8 +107,8 @@ TextureImporter:
         y: 424
         width: 18
         height: 76
-      alignment: 9
-      pivot: {x: .797747314, y: .0416263789}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: anemonetentacle_3
       rect:
@@ -117,8 +117,8 @@ TextureImporter:
         y: 424
         width: 17
         height: 77
-      alignment: 9
-      pivot: {x: .797747433, y: .0514462963}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: anemonetentacle_4
       rect:
@@ -127,8 +127,8 @@ TextureImporter:
         y: 424
         width: 16
         height: 77
-      alignment: 9
-      pivot: {x: .800987244, y: .0565118156}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: anemonetentacle_5
       rect:
@@ -137,8 +137,8 @@ TextureImporter:
         y: 336
         width: 13
         height: 78
-      alignment: 9
-      pivot: {x: .56735462, y: .0397464074}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: anemonetentacle_6
       rect:
@@ -147,8 +147,8 @@ TextureImporter:
         y: 336
         width: 13
         height: 78
-      alignment: 9
-      pivot: {x: .466323256, y: .056585066}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: anemonetentacle_7
       rect:
@@ -157,8 +157,8 @@ TextureImporter:
         y: 336
         width: 17
         height: 77
-      alignment: 9
-      pivot: {x: .242468446, y: .0508264303}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: anemonetentacle_8
       rect:
@@ -167,8 +167,8 @@ TextureImporter:
         y: 336
         width: 21
         height: 75
-      alignment: 9
-      pivot: {x: .208132789, y: .0505228676}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: anemonetentacle_9
       rect:
@@ -177,8 +177,8 @@ TextureImporter:
         y: 336
         width: 25
         height: 73
-      alignment: 9
-      pivot: {x: .132246092, y: .0502030887}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: anemonetentacle_10
       rect:
@@ -187,8 +187,8 @@ TextureImporter:
         y: 249
         width: 31
         height: 72
-      alignment: 9
-      pivot: {x: .146933645, y: .0500365347}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: anemonetentacle_11
       rect:
@@ -197,8 +197,8 @@ TextureImporter:
         y: 249
         width: 37
         height: 70
-      alignment: 9
-      pivot: {x: .109527998, y: .0684520155}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: anemonetentacle_12
       rect:
@@ -207,8 +207,8 @@ TextureImporter:
         y: 249
         width: 43
         height: 66
-      alignment: 9
-      pivot: {x: .0825606957, y: .0688310117}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: anemonetentacle_13
       rect:
@@ -217,8 +217,8 @@ TextureImporter:
         y: 249
         width: 50
         height: 60
-      alignment: 9
-      pivot: {x: .0797100812, y: .0840876251}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: anemonetentacle_14
       rect:
@@ -227,8 +227,8 @@ TextureImporter:
         y: 249
         width: 56
         height: 52
-      alignment: 9
-      pivot: {x: .0700160414, y: .0874554589}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: anemonetentacle_15
       rect:
@@ -237,8 +237,8 @@ TextureImporter:
         y: 161
         width: 53
         height: 57
-      alignment: 9
-      pivot: {x: .0975170508, y: .0696258545}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: anemonetentacle_16
       rect:
@@ -247,8 +247,8 @@ TextureImporter:
         y: 160
         width: 47
         height: 62
-      alignment: 9
-      pivot: {x: .0688294768, y: .0871308818}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: anemonetentacle_17
       rect:
@@ -257,8 +257,8 @@ TextureImporter:
         y: 160
         width: 41
         height: 65
-      alignment: 9
-      pivot: {x: .122795291, y: .0897770822}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: anemonetentacle_18
       rect:
@@ -267,8 +267,8 @@ TextureImporter:
         y: 160
         width: 34
         height: 67
-      alignment: 9
-      pivot: {x: .0921909139, y: .0861035213}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: anemonetentacle_19
       rect:
@@ -277,8 +277,8 @@ TextureImporter:
         y: 160
         width: 27
         height: 67
-      alignment: 9
-      pivot: {x: .183975786, y: .0781441331}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: anemonetentacle_20
       rect:
@@ -287,8 +287,8 @@ TextureImporter:
         y: 72
         width: 22
         height: 71
-      alignment: 9
-      pivot: {x: .281835556, y: .101910338}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: anemonetentacle_21
       rect:
@@ -297,8 +297,8 @@ TextureImporter:
         y: 72
         width: 17
         height: 73
-      alignment: 9
-      pivot: {x: .562740088, y: .0762903914}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: anemonetentacle_22
       rect:
@@ -307,8 +307,8 @@ TextureImporter:
         y: 72
         width: 20
         height: 74
-      alignment: 9
-      pivot: {x: .713316321, y: .0603962466}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: anemonetentacle_23
       rect:
@@ -317,8 +317,8 @@ TextureImporter:
         y: 72
         width: 22
         height: 73
-      alignment: 9
-      pivot: {x: .742405295, y: .0762903914}
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: anemonetentacle_24
       rect:
@@ -327,8 +327,58 @@ TextureImporter:
         y: 72
         width: 29
         height: 70
-      alignment: 9
-      pivot: {x: .775839984, y: .0962234512}
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: anemonetentacle_25
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 0
+        width: 26
+        height: 57
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: anemonetentacle_26
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 22
+        height: 58
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: anemonetentacle_27
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 0
+        width: 19
+        height: 59
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: anemonetentacle_28
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 0
+        width: 17
+        height: 59
+      alignment: 7
+      pivot: {x: .5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: anemonetentacle_29
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 0
+        width: 16
+        height: 58
+      alignment: 7
+      pivot: {x: .5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
