@@ -27,9 +27,8 @@ public class ReceiveDamage : MonoBehaviour {
 	
 
 	void Update () {
-#if UNITY_EDITOR
-	
-#endif
+
+
 	
 	}
 
@@ -69,7 +68,7 @@ public class ReceiveDamage : MonoBehaviour {
 				SingletonController.PlayerHited();
 
 			//if(hits >= maxHits)
-				//Destroy (gameObject);
+			//	Destroy (gameObject);
 		}
 
 	}

@@ -11,8 +11,9 @@ GameObject:
   - 212: {fileID: 21280424}
   - 114: {fileID: 11451682}
   - 114: {fileID: 11493700}
-  - 61: {fileID: 6176320}
   - 114: {fileID: 11464116}
+  - 114: {fileID: 11479854}
+  - 58: {fileID: 5808988}
   m_Layer: 9
   m_Name: Scallop Left
   m_TagString: Untagged
@@ -48,6 +49,7 @@ GameObject:
   - 114: {fileID: 11491712}
   - 61: {fileID: 6166774}
   - 114: {fileID: 11432490}
+  - 114: {fileID: 11439878}
   m_Layer: 9
   m_Name: Scallop Right
   m_TagString: Untagged
@@ -63,7 +65,7 @@ Transform:
   m_GameObject: {fileID: 109902}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -8.63000011, y: -9.88000011, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: .800000012, y: .800000012, z: .800000012}
   m_Children: []
   m_Father: {fileID: 480618}
   m_RootOrder: 0
@@ -75,7 +77,7 @@ Transform:
   m_GameObject: {fileID: 188408}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -8.44999981, y: 11.2600002, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: .800000012, y: .800000012, z: .800000012}
   m_Children: []
   m_Father: {fileID: 480618}
   m_RootOrder: 1
@@ -93,25 +95,25 @@ Transform:
   - {fileID: 455178}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!58 &5808988
+CircleCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 109902}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 1.90734863e-06, y: 1.90734863e-06}
+  serializedVersion: 2
+  m_Radius: 1.56499982
 --- !u!61 &6166774
 BoxCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 188408}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_Offset: {x: .25, y: 0}
-  serializedVersion: 2
-  m_Size: {x: 1.76999998, y: 3.12999964}
---- !u!61 &6176320
-BoxCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 109902}
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -131,9 +133,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   kind: 0
-  particles: {fileID: 0}
-  maxHits: 2
+  particles: {fileID: 104248, guid: 5dde3f7d874be4d658354ff876aed0c5, type: 2}
+  maxHits: 1
   hits: 0
+--- !u!114 &11439878
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 188408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744a624cff7bd4b34a2cd8c2aeb67a99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11451682
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -160,8 +173,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   kind: 0
-  particles: {fileID: 0}
-  maxHits: 2
+  particles: {fileID: 104248, guid: 5dde3f7d874be4d658354ff876aed0c5, type: 2}
+  maxHits: 1
   hits: 0
 --- !u!114 &11471946
 MonoBehaviour:
@@ -177,6 +190,17 @@ MonoBehaviour:
   pearl: {fileID: 164528, guid: a89c2a690357e43cf9be0a33446a5f40, type: 2}
   interval: 5.19999981
   accuracy: .649999976
+--- !u!114 &11479854
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 109902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744a624cff7bd4b34a2cd8c2aeb67a99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11491712
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -265,6 +289,30 @@ Prefab:
     - target: {fileID: 0}
       propertyPath: accuracy
       value: .649999976
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalScale.x
+      value: .800000012
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalScale.y
+      value: .800000012
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalScale.z
+      value: .800000012
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: particles
+      value: 
+      objectReference: {fileID: 104248, guid: 5dde3f7d874be4d658354ff876aed0c5, type: 2}
+    - target: {fileID: 0}
+      propertyPath: maxHits
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

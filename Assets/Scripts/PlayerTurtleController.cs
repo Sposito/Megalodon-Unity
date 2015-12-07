@@ -13,6 +13,12 @@ public class PlayerTurtleController : MonoBehaviour {
 		if (Time.timeScale != 0f) {
 			transform.position = SingletonController.player.transform.position;
 			transform.Rotate (0f, 0f, speed);
+
+			if(transform.childCount == 0){
+				Destroy(gameObject);
+				SingletonController.playerTurtlePUP = false;
+			}
 		}
+
 	}
 }

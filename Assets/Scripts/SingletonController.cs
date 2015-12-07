@@ -15,17 +15,34 @@ public class SingletonController : MonoBehaviour {
 
 	private static bool isPaused = false;
 	static private bool spawnTurtles = false;
+	static bool likeAVirgin = true;
+	GameObject pauseMenu;
 
+	private static AudioSource aS;
+
+	public static bool playerTurtlePUP = false;
+	public static bool playerScalopPUP = false;
 
 
 	void Awake () {
-		LoadEnviroment ();
-		player = GameObject.Find ("Player");
-		StartCoroutine("TurtleSpawn");
-		for (int i = 0; i < playerTotalLife; i++)
-			heartnemones[i] = GameObject.Find ("heartnemone" + i);
+		//This is just to load the intro scene withou messing with the scene indexes
+		//TODO: change the indexes from load Scanes for their names.
+		if (likeAVirgin) {
+			likeAVirgin = false;
+			Application.LoadLevel (4);
+		} else {
 
+			LoadEnviroment ();
+			player = GameObject.Find ("Player");
+			StartCoroutine ("TurtleSpawn");
+			for (int i = 0; i < playerTotalLife; i++)
+				heartnemones [i] = GameObject.Find ("heartnemone" + i);
 
+			aS = GameObject.Find("Song").GetComponent<AudioSource>();
+			pauseMenu = GameObject.Find("PauseMenu");
+			pauseMenu.SetActive(false);
+
+		}
 
 
 	}
@@ -46,8 +63,25 @@ public class SingletonController : MonoBehaviour {
 	void PauseGame(){
 		if (Input.GetKeyUp (KeyCode.P) || Input.GetKeyUp(KeyCode.Joystick1Button9) )
 			isPaused = !isPaused;
+		pauseMenu.SetActive(isPaused);
+		Time.timeScale = isPaused ? 0f : 1f;
+
+
+	}
+
+	void PauseGame(bool menu){
+		if (Input.GetKeyUp (KeyCode.P) || Input.GetKeyUp(KeyCode.Joystick1Button9) )
+			isPaused = !isPaused;
 		
 		Time.timeScale = isPaused ? 0f : 1f;
+		if (isPaused)
+			aS.Pause ();
+		else
+			aS.UnPause ();
+
+
+
+
 	}
 
 	//METHOD WHICH CALLS THE GIANT CRAB
@@ -69,7 +103,7 @@ public class SingletonController : MonoBehaviour {
 		Vector3 pos = new Vector3 (0f, 7f, 0f); // this dont matter as the megalodon set its own position
 		
 		boss = (GameObject) Instantiate (megalodon, pos, Quaternion.identity);
-		bossTotalLife = 70f;
+		bossTotalLife = 18f;
 		bossLife = bossTotalLife;
 	}
 	//Player Receives Damage
@@ -84,6 +118,9 @@ public class SingletonController : MonoBehaviour {
 			return;
 		case 0:
 			heartnemones [2].SetActive (false);
+			GameObject.Destroy(boss);
+			spawnTurtles = false;
+
 			Application.LoadLevelAdditive(2);
 			return;
 		default:
@@ -105,12 +142,16 @@ public class SingletonController : MonoBehaviour {
 
 		if (bossTotalLife > 5f) { // JUST CHECKING IF THE BOSS ISNT THE START BUTTON
 			if (bossLife < 0f){
+				GameObject.Destroy(boss);
 				Application.LoadLevelAdditive(3);
 			}
 			if( bossLife < bossTotalLife ){
 				spawnTurtles = true;
 			}
 
+			if( bossLife < bossTotalLife * 0.1f ){
+				spawnTurtles = true;
+			}
 
 		}
 	

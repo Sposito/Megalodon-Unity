@@ -13,6 +13,5 @@ public class RemoveGameObjectAfterTime : MonoBehaviour {
 	IEnumerator Remove(){
 		yield return new WaitForSeconds (seconds);
 		Destroy (gameObject);
-		print (5);
 	}
 }

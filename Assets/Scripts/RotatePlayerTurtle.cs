@@ -9,7 +9,7 @@ public class RotatePlayerTurtle : MonoBehaviour {
 	public float speed = 0.1f;
 	void Start () {
 		lastPos = transform.position;
-		print (Mathf.Atan2 (-1, 0) * Mathf.Rad2Deg);
+
 	}
 	
 	// Update is called once per frame

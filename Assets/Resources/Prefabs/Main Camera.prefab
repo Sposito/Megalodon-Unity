@@ -12,8 +12,6 @@ GameObject:
   - 92: {fileID: 9258848}
   - 124: {fileID: 12483222}
   - 81: {fileID: 8193220}
-  - 114: {fileID: 11480054}
-  - 114: {fileID: 11447426}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -81,33 +79,6 @@ Behaviour:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 112772}
   m_Enabled: 1
---- !u!114 &11447426
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 112772}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a94b781cad112c75d0008dfa8d76c639, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  shader: {fileID: 4800000, guid: 708b781cad112c75d0008dfa8d76c639, type: 3}
-  radius: {x: 4, y: 4}
-  angle: 1.41999996
-  center: {x: 0, y: 0}
---- !u!114 &11480054
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 112772}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 570c26727b5a24b40b5c60bb80183c80, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  period: 3
 --- !u!124 &12483222
 Behaviour:
   m_ObjectHideFlags: 1

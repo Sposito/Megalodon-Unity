@@ -49,6 +49,7 @@ GameObject:
   - 114: {fileID: 11428246}
   - 114: {fileID: 11469250}
   - 114: {fileID: 11440466}
+  - 58: {fileID: 5817414}
   m_Layer: 8
   m_Name: Megalodon
   m_TagString: Untagged
@@ -87,7 +88,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 153302}
   m_LocalRotation: {x: 0, y: 0, z: 1, w: -1.62920685e-07}
-  m_LocalPosition: {x: 2.1099999, y: 2.00999999, z: 0}
+  m_LocalPosition: {x: 2.67864943, y: 6.88497972, z: 0}
   m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_Children:
   - {fileID: 435342}
@@ -110,6 +111,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!58 &5817414
+CircleCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 153302}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: .119999997, y: -1.32000005}
+  serializedVersion: 2
+  m_Radius: .74000001
 --- !u!58 &5859466
 CircleCollider2D:
   m_ObjectHideFlags: 1
@@ -120,9 +134,9 @@ CircleCollider2D:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_Offset: {x: -.0599999987, y: -.100000001}
+  m_Offset: {x: -.0599999987, y: -.50999999}
   serializedVersion: 2
-  m_Radius: .300000012
+  m_Radius: .620000005
 --- !u!95 &9536076
 Animator:
   serializedVersion: 3

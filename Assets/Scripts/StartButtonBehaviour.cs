@@ -30,7 +30,7 @@ public class StartButtonBehaviour : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D other){
 		if (other.CompareTag ("Projectile")) {
-			print ("Started!");
+			//print ("Started!");
 			sound.GetComponent<AudioSource>().Play();
 			Instantiate (particles, other.transform.position, Quaternion.identity);
 			Destroy (other.gameObject);

@@ -70,10 +70,9 @@ public class MegalodonEntrace : MonoBehaviour {
 	}
 
 	IEnumerator GetInPlace(){
-		print ("Called IE");
+
 		sR.color = colorBackup;
 		while (transform.position.y >= yDefinitivePosition){
-			print ("Inside While");
 
 			transform.rotation = Quaternion.Euler(0f,0f,180f);
 			transform.Translate (Vector3.up * 5 / 100);

@@ -14,9 +14,11 @@ public class PlayerController : MonoBehaviour {
 
 	public GameObject powerUp1;
 
-	// Use this for initialization
+	GameObject turtle;
+	GameObject scalop;
 	void Start () {
-
+		turtle = (GameObject) Resources.Load ("Prefabs/TurtlesPowerUp");
+		scalop = (GameObject) Resources.Load ("Prefabs/PlayerScallops");
 	}
 	
 	// Update is called once per frame
@@ -26,6 +28,22 @@ public class PlayerController : MonoBehaviour {
 			MoveUsingAxis ();
 			TiltBack ();
 		}
+
+		if(Input.GetKeyUp(KeyCode.T ) || Input.GetKeyUp(KeyCode.Joystick1Button4) ){
+			if (!SingletonController.playerTurtlePUP){
+				Instantiate(turtle,Vector3.right * 20,Quaternion.identity);
+				SingletonController.playerTurtlePUP = true;
+			}
+		}
+
+		if(Input.GetKeyUp(KeyCode.Y) || Input.GetKeyUp(KeyCode.Joystick1Button5) ){
+			if (!SingletonController.playerScalopPUP){
+				Instantiate(scalop, Vector3.zero,Quaternion.Euler(0f,0f,90f) );
+				SingletonController.playerScalopPUP = true;
+			}
+		}
+
+
 
 	}
 

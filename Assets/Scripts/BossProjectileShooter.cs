@@ -7,8 +7,9 @@ public class BossProjectileShooter : MonoBehaviour {
 	public GameObject projectilePrefab;
 	public float shootInterval = 1f;
 	float shootCounter;
+	GameObject turtle;
 	void Start () {
-	
+		turtle = (GameObject) Resources.Load ("Prefabs/TurtlesPowerUp");
 	}
 	
 	// Update is called once per frame
@@ -18,6 +19,8 @@ public class BossProjectileShooter : MonoBehaviour {
 			Fire ();
 			shootCounter = 0f;
 		}
+
+
 	}
 
 	void Fire(){
