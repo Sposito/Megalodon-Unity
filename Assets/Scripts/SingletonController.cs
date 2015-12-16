@@ -15,7 +15,7 @@ public class SingletonController : MonoBehaviour {
 
 	private static bool isPaused = false;
 	static private bool spawnTurtles = false;
-	static bool likeAVirgin = true;
+	static bool firstTime = true;
 	GameObject pauseMenu;
 
 	private static AudioSource aS;
@@ -27,8 +27,8 @@ public class SingletonController : MonoBehaviour {
 	void Awake () {
 		//This is just to load the intro scene withou messing with the scene indexes
 		//TODO: change the indexes from load Scanes for their names.
-		if (likeAVirgin) {
-			likeAVirgin = false;
+		if (firstTime) {
+			firstTime = false;
 			Application.LoadLevel (4);
 		} else {
 
